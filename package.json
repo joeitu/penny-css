@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "npm ci --production",
-    "start": "npx community-solid-server -c config-penny.json"
+    "start": "npx community-solid-server -c config-penny.json -p 8080"
   },
   "dependencies": {
     "@solid/community-server": "2.0.1",
